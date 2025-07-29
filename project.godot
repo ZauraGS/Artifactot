@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Artifactot"
+run/main_scene="uid://dop60hoce5fox"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+API="*res://Scripts/Global/API.gd"
 
 [debug]
 
