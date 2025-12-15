@@ -1,6 +1,6 @@
 extends Node
 
 func _ready() -> void:
-	var test: Dictionary = await Artifacts.get_account_details()
+	var test: Variant = await Artifacts.get_server_details()
 	print(test)
 	print("finished")
