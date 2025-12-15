@@ -21,6 +21,6 @@ static func get_server_details() -> ServerDetails:
 
 static func get_bank_details() -> BankDetails:
 	var response: Response = await API.GET(BASE_URL + "my/details", HEADER, {})
-
+	return null
 
 #endregion

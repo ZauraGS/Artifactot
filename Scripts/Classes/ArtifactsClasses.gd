@@ -1,0 +1,1 @@
+class_name ArtifactsClasses extends Resource
